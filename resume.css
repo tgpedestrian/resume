@@ -5,6 +5,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 0px 0px 50% 50%;
 }
 header .header-broder {
   height: 150px;
@@ -17,6 +18,9 @@ header .header-pic {
   border-radius: 50%;
   width: 100%;
   height: 100%;
+}
+header h1 {
+  text-shadow: 1px 1px 0 #000, -1px -1px 0 #fff;
 }
 
 .personinfo-title {
